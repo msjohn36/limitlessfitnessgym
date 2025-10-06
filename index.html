@@ -41,8 +41,13 @@
     <a href="#">Join Now</a>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-    
-      src="images/facility.jpg"
+
+      <picture>
+        <source media="(min-width: 600px)" srcset="images/facility.jpg">
+         <source media="(max-width: 900px)" srcset="images/facility-320w.jpg">
+        <source media="(max-width: 1024px)" srcset="images/facility-768w.jpg">
+        <img src="images/facility.jpg" alt="Modern gym interior with rows of cardio and strength equipment, bright lighting, and motivational banners on the walls. Members are working out with focused and determined expressions, creating an energetic and welcoming atmosphere.">
+      </picture>
 
   </header>
   <nav>
@@ -82,8 +87,12 @@
       </ul>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-        src="images/classes.jpg"
-
+      <picture>
+        <source media="(min-width: 600px)" srcset="images/classes.jpg">
+        <source media="(min-width: 900px)" srcset="images/classes-320w.jpg">
+        <source media="(max-width: 1024px)" srcset="images/classes-768w.jpg">
+        <img src="images/classes.jpg" alt="A diverse group of people participating in a fitness class, showcasing various exercises and equipment. The atmosphere is energetic and motivating, with instructors guiding participants through their workouts.">
+      </picture>
     </section>
     <section>
       <h2>Personal Training</h2>
